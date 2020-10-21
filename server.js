@@ -15,6 +15,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+mongodb+srv://DWeems:canada1@cluster0.zbfxl.mongodb.net/cluster0?retryWrites=true&w=majority
+
 mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
